@@ -1,0 +1,16 @@
+Pequeño y potente framework para bots de twitter.
+-------------------------------------------------
+
+La librería con las diferentes clases necesarias para el funcionamiento se encuentra en ./lib.php, la configuración en ./config.php, el código de los bots en ./bots.php y la base de datos que se debe importar para que todo el asunto funcione se encuentra en database.sql.
+
+Instalación
+-----------
+
+La instalación es muy simple: se importa la base de datos database.sql, se modifica config.php para que todo funcione y se ejecuta "start.php. 
+
+Es conveniente añadir el script a cron, para que se ejecute de forma periódica.
+
+Documentación
+--------------
+
+No hay. Pero el funcionamiento es bastante simple y se puede adivinar fácilmente cómo funciona. Suerte. Si tienes algún problema, puedes encontrarme en twitter, soy @jdiezlopez.

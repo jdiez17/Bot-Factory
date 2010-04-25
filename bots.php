@@ -1,7 +1,7 @@
 <?php
 class Ebcari extends Bot {
 	public $user = 'ebcari';
-	public $password = 'JAJAJAsoyEBCUBE';
+	public $password = 'contraseña';
 	public $datasource = 'ebcube';
 	
 	var $_append = ', cari';
@@ -17,7 +17,7 @@ class Ebcari extends Bot {
 
 class EbcariSevikunTeQuiero extends Bot {
 	public $user = 'ebcari';
-	public $password = 'JAJAJAsoyEBCUBE';
+	public $password = 'contraseña';
 	public $datasource = 'sevikun';
 	
 	var $_find = array('te quiero', 'os quiero');
@@ -34,7 +34,7 @@ class EbcariSevikunTeQuiero extends Bot {
 
 class NavarroCabreado extends Bot {
 	public $user = 'navarrocabreado';
-	public $password = 'JAJAJAsoyADGI';
+	public $password = 'contraseña';
 	public $datasource = 'adrinavarro';
 	
 	var $_append = ', coño';
@@ -60,7 +60,7 @@ class NavarroCabreado extends Bot {
 
 class FailBN extends Bot {
 	public $user = 'failbn';
-	public $password = 'JAJAJAsoyFLAN';
+	public $password = 'contraseña';
 	public $datasource = 'franbn';
 
 	function _replace($tweet, $deleted = false) {
@@ -82,7 +82,7 @@ class FailBN extends Bot {
 
 class EgoBN extends Bot {
 	public $user = 'egobn';
-	public $password = 'JAJAJAsoyFLAN';
+	public $password = 'contraseña';
 	public $datasource = 'franbn';
 	
 	var $_append = ', porque molo';
